@@ -1,3 +1,8 @@
+@import './fontawesome/scss/fontawesome.scss';
+
+@import './fontawesome/scss/solid.scss';
+@import './fontawesome/scss/brands.scss';
+
 :root {
     --bs-primary: #8e44ad; /* Morado */
     --bs-secondary: #95a5a6;
