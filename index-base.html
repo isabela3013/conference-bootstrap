@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ala Inusual 2025</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80') no-repeat center center;
+            background-size: cover;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+            height: 100vh;
+            align-items: center;
+        }
+        .speaker-img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+        .agenda-table th, .agenda-table td {
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Ala Inusual 2025</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#acerca">Acerca del Evento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#oradores">Oradores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#agenda">Agenda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ubicacion">Ubicación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#registro">Registro</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="inicio" class="hero-section">
+        <div class="container">
+            <h1 class="display-3 fw-bold">Ala Inusual 2025</h1>
+            <p class="lead">Encuentro Internacional de Mariposas Exóticas y Raras</p>
+            <p class="lead">
+                <span class="badge bg-primary fs-5">14 - 16 de Junio, 2025</span><br>
+                <span class="badge bg-secondary fs-6 mt-2">Centro de Convenciones, París, Francia</span>
+            </p>
+            <a href="#registro" class="btn btn-primary btn-lg mt-4">¡Regístrate Ahora!</a>
+        </div>
+    </header>
+
+    <section id="acerca" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="mb-4">Acerca de la Conferencia</h2>
+                    <p class="lead">Únete a expertos, entusiastas y conservacionistas de todo el mundo en Ala Inusual 2025, la conferencia internacional dedicada al estudio, conservación y admiración de las mariposas más extraordinarias del planeta.</p>
+                    <p>Durante tres días, exploraremos especies raras, descubrimientos recientes, técnicas de observación en hábitats únicos, y proyectos de preservación en peligro de extinción. El evento incluirá charlas magistrales, exhibiciones científicas y talleres prácticos para todos los niveles.</p>
+                    <p>Te esperamos para descubrir y aprender de los expertos de la industria y ser parte de una comunidad vibrante.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="oradores" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Nuestros Oradores Destacados</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card h-100 text-center shadow-sm">
+                        <div class="card-body">
+                            <img src="https://randomuser.me/api/portraits/men/35.jpg" alt="Foto Orador 1" class="speaker-img">
+                            <h5 class="card-title">Nombre del Orador 1</h5>
+                            <p class="card-text text-muted">Título / Empresa del Orador 1</p>
+                            <p class="card-text">Experto en [Área de experticia], con años de experiencia en [algo relevante].</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary mt-2">Ver perfil</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 text-center shadow-sm">
+                        <div class="card-body">
+                            <img src="https://randomuser.me/api/portraits/women/50.jpg" alt="Foto Orador 2" class="speaker-img">
+                            <h5 class="card-title">Nombre del Orador 2</h5>
+                            <p class="card-text text-muted">Título / Empresa del Orador 2</p>
+                            <p class="card-text">Líder innovador en [otra área], conocido por sus contribuciones a [proyecto/campo].</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary mt-2">Ver perfil</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 text-center shadow-sm">
+                        <div class="card-body">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Foto Orador 3" class="speaker-img">
+                            <h5 class="card-title">Nombre del Orador 3</h5>
+                            <p class="card-text text-muted">Título / Empresa del Orador 3</p>
+                            <p class="card-text">Investigador y educador en [área específica], compartirá sus últimos descubrimientos.</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary mt-2">Ver perfil</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="agenda" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Agenda de la Conferencia</h2>
+            <h3 class="mb-3 text-center">Día 1: Viernes, 14 de Junio</h3>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped agenda-table">
+                    <thead>
+                        <tr>
+                            <th>Hora</th>
+                            <th>Actividad</th>
+                            <th>Orador/Panelistas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>08:30 - 09:00</td>
+                            <td>Registro y Café de Bienvenida</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>09:00 - 10:00</td>
+                            <td><strong class="text-primary">Keynote Inaugural: El Futuro de [Tu temática]</strong></td>
+                            <td>Nombre del Orador Principal</td>
+                        </tr>
+                        <tr>
+                            <td>10:00 - 10:45</td>
+                            <td>Charla: [Tema de la charla 1]</td>
+                            <td>Nombre del Orador 1</td>
+                        </tr>
+                        <tr>
+                            <td>10:45 - 11:15</td>
+                            <td>Coffee Break & Networking</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>11:15 - 12:00</td>
+                            <td>Charla: [Tema de la charla 2]</td>
+                            <td>Nombre del Orador 2</td>
+                        </tr>
+                        <tr>
+                            <td>12:00 - 13:00</td>
+                            <td>Panel de Discusión: [Tema del panel]</td>
+                            <td>Panelistas (Orador 3, Orador 4, etc.)</td>
+                        </tr>
+                        <tr>
+                            <td>13:00 - 14:30</td>
+                            <td>Almuerzo</td>
+                            <td></td>
+                        </tr>
+                        </tbody>
+                </table>
+            </div>
+
+            <h3 class="mb-3 mt-5 text-center">Día 2: Sábado, 15 de Junio</h3>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped agenda-table">
+                    <thead>
+                        <tr>
+                            <th>Hora</th>
+                            <th>Actividad</th>
+                            <th>Orador/Panelistas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>09:00 - 10:00</td>
+                            <td>Taller: [Nombre del taller 1]</td>
+                            <td>Facilitador 1</td>
+                        </tr>
+                        <tr>
+                            <td>10:00 - 10:45</td>
+                            <td>Charla: [Tema de la charla 3]</td>
+                            <td>Nombre del Orador 5</td>
+                        </tr>
+                        <tr>
+                            <td>10:45 - 11:15</td>
+                            <td>Coffee Break & Networking</td>
+                            <td></td>
+                        </tr>
+                        </tbody>
+                </table>
+            </div>
+
+            <h3 class="mb-3 mt-5 text-center">Día 3: Domingo, 16 de Junio</h3>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped agenda-table">
+                    <thead>
+                        <tr>
+                            <th>Hora</th>
+                            <th>Actividad</th>
+                            <th>Orador/Panelistas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>09:00 - 10:00</td>
+                            <td>Taller: [Nombre del taller 1]</td>
+                            <td>Facilitador 1</td>
+                        </tr>
+                        <tr>
+                            <td>10:00 - 10:45</td>
+                            <td>Charla: [Tema de la charla 3]</td>
+                            <td>Nombre del Orador 5</td>
+                        </tr>
+                        <tr>
+                            <td>10:45 - 11:15</td>
+                            <td>Coffee Break & Networking</td>
+                            <td></td>
+                        </tr>
+                        </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="ubicacion" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Ubicación del Evento</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <h4>Centro de Convenciones</h4>
+                    <p><strong>Dirección:</strong> Calle #123 - 45, París, Francia</p>
+                    <p><strong>Transporte Público:</strong> Estación de metro/bus más cercana.</p>
+                    <p><strong>Parqueo:</strong> Disponible en el lugar con costo adicional.</p>
+                    <p>Para más información sobre cómo llegar, puedes visitar:</p>
+                    <a href="https://maps.app.goo.gl/8nLoLh7WJ4c4JPwo6" target="_blank" class="btn btn-outline-info">Abrir en Google Maps</a>
+                </div>
+                <div class="col-md-6">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2625.0071199065787!2d2.2925507764644255!3d48.858074621332115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1smaps%20torre%20eiffel!5e0!3m2!1sen!2sco!4v1748561416640!5m2!1sen!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <small class="text-muted d-block mt-2 text-center">Puedes reemplazar el iframe con la ubicación exacta de tu evento.</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="registro" class="py-5 bg-primary text-white">
+        <div class="container text-center">
+            <h2 class="mb-4">¡No te pierdas la Conferencia!</h2>
+            <p class="lead">Asegura tu lugar hoy mismo. Cupos limitados.</p>
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="nombre" placeholder="Nombre Completo" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="correo" placeholder="Correo Electrónico" required>
+                        </div>
+                        <div class="mb-3">
+                            <select class="form-select" id="tipoRegistro">
+                                <option selected disabled>Selecciona tu tipo de registro</option>
+                                <option value="general">Pase General</option>
+                                <option value="vip">Pase VIP</option>
+                                <option value="estudiante">Estudiante</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-light btn-lg">Completar Registro</button>
+                    </form>
+                    <p class="mt-3">Para más detalles sobre precios y paquetes, <a href="#" class="text-white text-decoration-underline">visita nuestra sección de tickets</a>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2025 Nombre de la Conferencia. Todos los derechos reservados.</p>
+            <p>Síguenos en:
+                <a href="#" class="text-white mx-2"><i class="fab fa-facebook"></i></a> <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>  <a href="#" class="text-white mx-2"><i class="fab fa-linkedin"></i></a> </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/tu_codigo_font_awesome.js" crossorigin="anonymous"></script>
+</body>
+</html>
